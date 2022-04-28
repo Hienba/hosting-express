@@ -7,6 +7,6 @@ app.set('view engine', 'html')
 // app.get("/", (req, res) => res.json("data:success"));
 app.get("/trang-chu", (req,res) => res.redirect("https://google.com"));
 app.get("/", function (req, res) {
-  res.sendFile("pages/index.html", {root:__dirname});
+   res.send("Hello World");
 });
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
