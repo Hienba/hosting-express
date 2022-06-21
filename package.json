@@ -1,0 +1,24 @@
+{
+  "name": "search-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hienba/search-tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hienba/search-tools/issues"
+  },
+  "homepage": "https://github.com/Hienba/search-tools#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
